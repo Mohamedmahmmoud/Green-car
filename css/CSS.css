@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width:100%
+}
+body{
+    font-family: 'Oxanium', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+.header{
+    background-color: white;
+
+}
+
+.header .container-fluid a{
+    color: green;
+    margin-right: 20px;
+    width: 120px;
+}
+
+.header .container-fluid{
+    padding: 5px 0;
+}
+.header .navbar-brand{
+    width: 170px;
+
+}
+.header .iconsearch{
+    color:green;
+    padding-right: 50px;
+    transition: all 0.5s;
+}
+.header .iconsearch:hover{
+    color:orange;
+}
+.header .nav-link{
+    transition: all 0.5s;
+}
+.header .nav-link:hover{
+    color:orange;
+    }
+.btnjoin button{
+    width: 100px;
+    background-color: green;
+    clip-path: polygon(0% 0%, 90% 0, 100% 30%, 100% 100%, 0 100%);
+    color: #fff;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    min-width: 180px;
+    height: 48px;
+    line-height: 50px;
+    padding: 0 40px;
+    border-radius: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.btnjoin button:hover{
+    background-color:orange;
+    
+}
+.btn{ 
+    margin-bottom: 40PX;
+  border: none;
+  width: 200PX;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+    color: white;
+    background-color: green;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color:orange;
+    color: #fff;
+    
+}
+.btn2{
+  border: none;
+  width: 200PX;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+}
+.btn2:hover {
+    background-color:orange;
+    color: #fff;
+    
+}
+.about .text{
+    text-align: center;
+}
+.home-station{
+    text-align: center;
+}
+.btn3{ 
+    border: none;
+    width: 200PX;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 5px;
+      color: white;
+      background-color: green;
+      transition: all 0.5s;
+  }
+  .btn3:hover{
+      background-color:orange;
+      color:white;
+  
+  }
+
+.home-img { 
+background-image:url(../image/R\ \(1\).jpg) ;
+background-repeat:no-repeat;
+height: 650px;
+margin-left: 135px;
+}
+.home .home-text-img{
+/* background-color: rgba(150, 158, 150, 0.681); */
+
+padding: 20px 0;
+}
+.home .home-text p{
+    text-align: center;
+    font-weight: 400;
+font-size: 18px;
+letter-spacing: 2px;
+color: black;
+}
+.home .home-text h1{
+    color: rgba(0, 128, 0, 0.659);
+    font-size: 70px;
+font-weight: 800;
+text-align: center;
+}
+.home .home-text h2{
+    color: white;
+    font-size: 70px;
+font-weight: 800;
+text-align: center;
+}
+.our-service {
+    /* background-color: green; */
+    margin: 30 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.our-service h2{
+    color: green;
+    padding-bottom: 20PX;
+}
+.our-service .item .card{
+    text-align: center;
+        background-color:transparent;
+
+    }
+    .our-service .card-body {
+        padding: 0;
+        
+    }
+    .our-service .card-body h6{
+        padding-top:10px ;
+        font-family: "Oxanium", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: green;
+        text-transform: uppercase;
+        display: block;
+        cursor: pointer;
+    }
+    .our-service .card-body a{
+        padding: 5px;
+        background-color: transparent;
+        color: green;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+    .our-service .card-body a:hover{
+        color:orange;
+    }
+    .our-service .card-body p{
+        font-family: "Oxanium", sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: green;
+        padding:5px ;
+    }
+    .our-service .owl-nav{
+        color: white;
+    }
+    .HEADLINEScards .card{
+        text-align: left;
+        background-color: #0c0c35;
+    }
+
+.our-products{
+    margin: 30px 0;
+    padding: 20px 0 ;
+}
+.our-products li{
+    text-decoration: none;
+
+}
+.our-products h1{
+    color: green;
+    text-align: center;
+}
+.about h2{
+    color: green;
+    font-size: 70px;
+font-weight: 800;
+text-align: center;
+}
+.about p{ padding: 30px 0;
+    text-align: center;
+}
+.contact{margin: 40px 0;
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.contact h2{
+    color: green;
+    font-size: 70px;
+font-weight: 800;
+text-align: center;
+}
+.contact a{
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: green; 
+    transition: all 0.5s;
+}
+.contact a:hover{
+    color:orange;
+}
+
+
+.social{
+    text-align: center;
+ margin-top: 40px;
+margin-bottom: 20px;
+}
+.social h3{
+    color: green;
+    font-size: 70px;
+font-weight: 800;
+text-align: center;
+}
+.social a{
+    text-decoration: none;
+    color: green; 
+    transition: all 0.5s;
+}
+.social a:hover{
+    color:orange;
+}
+
+.footer-padding {
+    background-color: green;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+    
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+    width: 251px
+}
+.footer-area .footer-logo {
+    margin-bottom: 25px;
+}
+.footer-area .footer-pera p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+.footer-area .footer-tittle h4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+}
+.footer-area .footer-tittle ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+.footer-area .footer-tittle ul li {
+    margin-bottom: 15px;
+}
+.footer-area .footer-tittle ul li a {
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer-tittle h4 span{
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top:20px ;
+}
+.footer-tittle a{
+    padding: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.footer-tittle a:hover{
+    color:orange;
+}
+.footer-tittle .form-field{
+    margin-top: 30px;
+    
+}
+.footer-tittle .form-control{
+        color: green !important;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 2;
+            border: 2px solid rgba(152, 65, 255, 0.3);
+            outline: none;
+            box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 20%);
+    }
+    .footer-tittle .form-control::placeholder{
+        color: black;
+        opacity: 1;
+    }
+    .footer-tittle .contact-form-group{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px; 
+    
+    }
+    .footer-tittle button{
+margin-top: 20px;
+    }
+    .mb-50 .textt{
+        margin-top: 20px;
+    }
+    .mb-50 .textt h5{
+        color: black;
+        font-size: 15px;
+    }
+    .home-station .item .card{
+        text-align: center;
+            background-color:transparent;
+    
+        }
+        .home-station .card-body {
+            padding: 0;
+            
+        }
+        .home-station .card-body h6{
+            padding-top:10px ;
+            font-family: "Oxanium", sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            color: green;
+            text-transform: uppercase;
+            display: block;
+            cursor: pointer;
+        }
+        .home-station .card-body a{
+            padding: 5px;
+            background-color: transparent;
+            color: green;
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        .home-station .card-body a:hover{
+            color:orange;
+        }
+        .home-station .card-body p{
+            font-family: "Oxanium", sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: green;
+            padding:5px ;
+        }
+        .formm{
+            color: green;
+            margin: 60px 0;
+        }
+        
+        .formm h3 {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0;
+            text-transform: uppercase;
+            line-height: 1.7;
+            margin: 0 0 10px;
+            padding: 5px 0;
+        }
+            .formm h2 {
+                font-size: 45px;
+                line-height: 50px;
+                display: block;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 5px 0;
+            }
+        .formm p {
+            font-size: 17px;
+            line-height: 27px;
+            padding: 5px 0;
+        }
+        .formm .forminp{
+            margin-left: 20px;
+            
+        }
+        
+        .formm .form-control{
+            color: black !important;
+                background-color: white;
+                border: none;
+                border-radius: 2px;
+                outline: none;
+                box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 20%);
+        }
+        .formm .form-control::placeholder{
+            color: black;
+            opacity: 1;
+        }
+        .formm .contact-form-group{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 15px; 
+        
+        }
